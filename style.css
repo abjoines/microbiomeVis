@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+
+body {
+    padding: 40px;
+    margin: auto;
+    color: white;
+    background-image: url(./media/microbiomeLanding.png) ;
+    background-size: 130% auto;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:20px;
+    padding-top:120px;
+    font-size: 50px;
+}
+
+h3 {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.splash {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 0 auto;
+    display: block;
+    transition: all .5s ease-in-out; 
+}
+.splash:hover { 
+    transform: scale(1.5); 
+    color: #5ACAEC;
+    }
